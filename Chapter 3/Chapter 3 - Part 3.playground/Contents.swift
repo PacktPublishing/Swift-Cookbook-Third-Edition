@@ -1,5 +1,5 @@
 
-let ledZeppelin["Robert", "Jimmy", "John", "John Paul"]
+let ledZeppelin = ["Robert", "Jimmy", "John", "John Paul"]
 
 for musician in ledZeppelin {
     print(musician)
@@ -12,7 +12,7 @@ for value in 1...12 {
 
 let zeppelinByInstrument = ["vocals": "Robert",
                            "lead guitar": "Jimmy",
-                           "drums": "John"
+                           "drums": "John",
                            "bass guitar": "John Paul"]
 
 for (key, value) in zeppelinByInstrument {
@@ -21,4 +21,8 @@ for (key, value) in zeppelinByInstrument {
 
 ledZeppelin.forEach { musician in
     print(musician)
+}
+
+zeppelinByInstrument.forEach { (key, value) in
+    print("\(value) plays \(key)")
 }

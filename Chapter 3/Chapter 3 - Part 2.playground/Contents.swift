@@ -16,7 +16,7 @@ func lookTowards(_ direction: CompassPoint) {
     case .east:
         print("To the east is a blacksmith")
     case .west:
-        print("The the west is the town square")
+        print("To the west is the town square")
     }
 }
 

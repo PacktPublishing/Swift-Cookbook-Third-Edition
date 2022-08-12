@@ -1,3 +1,4 @@
+import Foundation
 
 // From https://en.wikipedia.org/wiki/Solar_System
 let inputData: [[String: Any]] = [
@@ -84,3 +85,15 @@ func makePlanets(fromInput input: [[String: Any]]) -> [Planet] {
 }
 
 let planets = makePlanets(fromInput: inputData)
+
+extension Planet: Codable {
+    init(dictionary: [String: Any]) throws {
+        self = try JSONDecoder().decode(Planet.self, from: JSONSerialization.data(withJSONObject: dictionary))
+    }
+}
+
+do {
+    let planet = try Planet(dictionary: inputData.first!)
+} catch {
+    print(error)
+}

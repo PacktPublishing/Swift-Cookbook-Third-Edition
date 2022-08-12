@@ -5,18 +5,18 @@ enum ClassificationState {
     case complete
 }
 
-enum MovieReviewClass {
+enum VideoGameReviewClass {
     case bad
     case average
     case good
     case brilliant
 }
 
-class MovieReviewClassifier {
+class VideoGameReviewClassifier {
     
     var state: ClassificationState = .initial
     
-    func classify(forStarsOutOf10 stars: Int) -> MovieReviewClass {
+    func classify(forStarsOutOf10 stars: Int) -> VideoGameReviewClass {
         
         precondition(state == .initial, "Classifier state must be initial before classifying")
         
@@ -40,7 +40,7 @@ class MovieReviewClassifier {
     }
 }
 
-let classifier = MovieReviewClassifier()
+let classifier = VideoGameReviewClassifier()
 let review1 = classifier.classify(forStarsOutOf10: 9)
 print(review1) // brilliant
 print(classifier.state) // complete
