@@ -81,7 +81,7 @@ class Reminder: Saveable {
 
 class SaveManager {
     
-    func save(_ thingToSave: Saveable) {
+    func save(_ thingToSave: any Saveable) {
         thingToSave.saveToRemoteDatabase { success in
             print("Saved! Success: \(success)")
         }
@@ -90,8 +90,6 @@ class SaveManager {
 
 let birthdayReminder = Reminder(date: "08/06/2006", detail: "Maddie's Birthday")
 let saveManager = SaveManager()
-saveManager.save(maddie)
-saveManager.save(birthdayReminder)
 
 let createPerson: (String, String, String) -> Person = { given, middle, family in
     
@@ -104,3 +102,5 @@ let createPerson: (String, String, String) -> Person = { given, middle, family i
 
 let maddie = createPerson("Madeleine", "Rose", "Barker")
 
+saveManager.save(maddie)
+saveManager.save(birthdayReminder)
