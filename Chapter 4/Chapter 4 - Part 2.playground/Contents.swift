@@ -15,9 +15,9 @@ let awards: Set<String> = ["Best Visual Effects",
                            "Best Film Editing"]
 
 let oscars2022 = makeDuplicates(of: "Dune", withKeys: awards)
-print(oscars2022["Best Picture"] ?? "")
+print(oscars2022["Best Visual Effects"] ?? "")
 // Dune
-print(oscars2022["Best International Feature"] ?? "")
+print(oscars2022["Best Cinematography"] ?? "")
 // Dune
 
 
@@ -34,7 +34,7 @@ func makeDuplicatesGeneric<ItemType, KeyType: Hashable>(of item: ItemType,
 }
 
 let oscars2022Generic = makeDuplicatesGeneric(of: "Dune", withKeys: awards)
-print(oscars2022Generic["Best Picture"] ?? "")
+print(oscars2022Generic["Best Visual Effects"] ?? "")
 // Dune
-print(oscars2022Generic["Best International Feature"] ?? "")
+print(oscars2022Generic["Best Cinematography"] ?? "")
 // Dune
