@@ -1,4 +1,4 @@
-
+// Pt. 1
 import CoreLocation
 
 protocol TransportMethod {
@@ -69,6 +69,7 @@ let durationByTrain = trainJourney.durationInHours
 print("Journey distance: \(distanceByTrain) km")
 print("Journey duration: \(durationByTrain) hours")
 
+// Pt. 2: There's more...
 enum Road: TransportMethod {
     typealias CollectionPoint = CLLocation
     
