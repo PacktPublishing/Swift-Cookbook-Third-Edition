@@ -10,7 +10,6 @@ import UIKit
 import QuartzCore
 import AVFoundation
 import Photos
-import Dispatch
 
 class PhotoCollectionViewController: UIViewController {
 
@@ -40,8 +39,6 @@ class PhotoCollectionViewController: UIViewController {
             _ = previewController.presentPreview(animated: true)
         }
     }
-    
-    let processingQueue = DispatchQueue(label: "Photo processing queue")
     
     func generatePhotoBook(with photos: [UIImage]) async -> URL {
         
