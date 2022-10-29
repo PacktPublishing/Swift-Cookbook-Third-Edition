@@ -25,7 +25,7 @@ struct MyView: View {
                 })
                 
                 HStack {
-                    Text("By Keith & Chris")
+                    Text("By Keith, Chris, & Danny")
                     Image(systemName: "book")
                 }
             }
