@@ -1,5 +1,5 @@
 //
-//  CoffeePerformanceChart.swift
+//  CoffeePerformance.swift
 //  CoffeePerformers
 //
 //  Created by Daniel Bolella on 1/12/23.
@@ -23,10 +23,10 @@ var dannyPerfInfo: [PerformanceInfo] = [
     .init(cups: 5, rating: 1)
 ]
 
-struct CoffeePerformanceChart: View {
+struct CoffeePerformance: View {
     var body: some View {
         VStack (alignment: .leading){
-            Text("Danny's Coffee Performance  ☕️")
+            Text("Danny's Coffee  ☕️")
             Chart {
                 ForEach(dannyPerfInfo) { perfInfo in
                     BarMark(
@@ -40,11 +40,12 @@ struct CoffeePerformanceChart: View {
         }
         .aspectRatio(contentMode: .fit)
         .padding()
+        .navigationTitle("Coffee Performers")
     }
 }
 
-struct CoffeePerformanceChart_Previews: PreviewProvider {
+struct CoffeePerformance_Previews: PreviewProvider {
     static var previews: some View {
-        CoffeePerformanceChart()
+        CoffeePerformance()
     }
 }

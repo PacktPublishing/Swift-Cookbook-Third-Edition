@@ -9,13 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                NavigationLink(destination: CoffeePerformance()){
+                    Label("Coffee Performance", systemImage: "1.circle")
+                }
+                NavigationLink(destination: MultiplePerformers()){
+                    Label("Multiple Performers", systemImage: "2.circle")
+                }
+                NavigationLink(destination: DifferentMarks()){
+                    Label("Different Marks", systemImage: "3.circle")
+                }
+                NavigationLink(destination: Overlaying()){
+                    Label("Overlaying", systemImage: "4.circle")
+                }
+                NavigationLink(destination: Interactivity()){
+                    Label("Interactivity", systemImage: "5.circle")
+                }
+            }
+            .listStyle(.automatic)
+            .navigationTitle("12. Swift Charts")
         }
-        .padding()
     }
 }
 
