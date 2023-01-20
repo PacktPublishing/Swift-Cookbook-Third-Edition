@@ -20,8 +20,8 @@ struct ContentView: View {
                 NavigationLink(destination: DifferentMarks()){
                     Label("Different Marks", systemImage: "3.circle")
                 }
-                NavigationLink(destination: Overlaying()){
-                    Label("Overlaying", systemImage: "4.circle")
+                NavigationLink(destination: Modifiers()){
+                    Label("Modifiers", systemImage: "4.circle")
                 }
                 NavigationLink(destination: Interactivity()){
                     Label("Interactivity", systemImage: "5.circle")

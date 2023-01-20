@@ -20,7 +20,8 @@ var dannyPerfInfo: [PerformanceInfo] = [
     .init(cups: 2, rating: 4),
     .init(cups: 3, rating: 5),
     .init(cups: 4, rating: 3),
-    .init(cups: 5, rating: 1)
+    .init(cups: 5, rating: 1),
+    .init(cups: 6, rating: 0)
 ]
 
 struct CoffeePerformance: View {

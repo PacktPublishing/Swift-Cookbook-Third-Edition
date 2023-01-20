@@ -14,7 +14,8 @@ var johnPerfInfo: [PerformanceInfo] = [
     .init(cups: 2, rating: 1),
     .init(cups: 3, rating: 3),
     .init(cups: 4, rating: 5),
-    .init(cups: 5, rating: 2)
+    .init(cups: 5, rating: 2),
+    .init(cups: 6, rating: 0)
 ]
 
 let multiplePerformers = [

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A7C4ABF2970F39E00CDC035 /* MultiplePerformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4ABE2970F39E00CDC035 /* MultiplePerformers.swift */; };
-		0A7C4AC12970F3C000CDC035 /* Overlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4AC02970F3C000CDC035 /* Overlaying.swift */; };
+		0A7C4AC12970F3C000CDC035 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4AC02970F3C000CDC035 /* Modifiers.swift */; };
 		0A7C4AC32970F3D900CDC035 /* Interactivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4AC22970F3D900CDC035 /* Interactivity.swift */; };
 		0A7C4AC52971006B00CDC035 /* DifferentMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4AC42971006B00CDC035 /* DifferentMarks.swift */; };
 		0AC489992970E934004317E9 /* CoffeePerformersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC489982970E934004317E9 /* CoffeePerformersApp.swift */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		0A7C4ABE2970F39E00CDC035 /* MultiplePerformers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePerformers.swift; sourceTree = "<group>"; };
-		0A7C4AC02970F3C000CDC035 /* Overlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlaying.swift; sourceTree = "<group>"; };
+		0A7C4AC02970F3C000CDC035 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		0A7C4AC22970F3D900CDC035 /* Interactivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactivity.swift; sourceTree = "<group>"; };
 		0A7C4AC42971006B00CDC035 /* DifferentMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentMarks.swift; sourceTree = "<group>"; };
 		0AC489952970E934004317E9 /* CoffeePerformers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeePerformers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +68,7 @@
 				0AC489A62970E98D004317E9 /* CoffeePerformance.swift */,
 				0A7C4ABE2970F39E00CDC035 /* MultiplePerformers.swift */,
 				0A7C4AC42971006B00CDC035 /* DifferentMarks.swift */,
-				0A7C4AC02970F3C000CDC035 /* Overlaying.swift */,
+				0A7C4AC02970F3C000CDC035 /* Modifiers.swift */,
 				0A7C4AC22970F3D900CDC035 /* Interactivity.swift */,
 			);
 			path = CoffeePerformers;
@@ -155,7 +155,7 @@
 				0A7C4ABF2970F39E00CDC035 /* MultiplePerformers.swift in Sources */,
 				0A7C4AC52971006B00CDC035 /* DifferentMarks.swift in Sources */,
 				0AC489A72970E98D004317E9 /* CoffeePerformance.swift in Sources */,
-				0A7C4AC12970F3C000CDC035 /* Overlaying.swift in Sources */,
+				0A7C4AC12970F3C000CDC035 /* Modifiers.swift in Sources */,
 				0AC4899B2970E934004317E9 /* ContentView.swift in Sources */,
 				0AC489992970E934004317E9 /* CoffeePerformersApp.swift in Sources */,
 				0A7C4AC32970F3D900CDC035 /* Interactivity.swift in Sources */,
