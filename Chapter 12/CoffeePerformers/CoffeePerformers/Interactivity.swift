@@ -42,7 +42,6 @@ struct Interactivity: View {
             .chartXAxisLabel("Cups of Coffee")
             .chartYAxisLabel("Rating")
         }
-        .aspectRatio(contentMode: .fit)
         .padding()
         .navigationTitle("Interactivity")
         .chartOverlay { proxy in

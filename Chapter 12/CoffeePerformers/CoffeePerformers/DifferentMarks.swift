@@ -62,7 +62,6 @@ struct DifferentMarks: View {
             }
             .pickerStyle(.segmented)
         }
-        .aspectRatio(contentMode: .fit)
         .padding()
         .navigationTitle("Different Marks")
     }

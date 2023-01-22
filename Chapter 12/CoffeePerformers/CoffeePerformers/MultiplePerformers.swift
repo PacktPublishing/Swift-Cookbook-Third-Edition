@@ -33,14 +33,13 @@ struct MultiplePerformers: View {
                         x: .value("Cups of Coffee", perfInfo.cups),
                         y: .value("Rating", perfInfo.rating)
                     )
-                    .foregroundStyle(by: .value("Perfomer", performer.name))
-                    .position(by: .value("Perfomer", performer.name), axis: .horizontal, span: .inset(15))
+                    .foregroundStyle(by: .value("Performer", performer.name))
+                    .position(by: .value("Performer", performer.name), axis: .horizontal, span: .inset(15))
                 }
             }
             .chartXAxisLabel("Cups of Coffee")
             .chartYAxisLabel("Rating")
         }
-        .aspectRatio(contentMode: .fit)
         .padding()
         .navigationTitle("Coffee Performers")
     }

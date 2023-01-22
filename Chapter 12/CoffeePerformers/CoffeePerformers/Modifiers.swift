@@ -90,7 +90,6 @@ struct Modifiers: View {
             }
             .pickerStyle(.segmented)
         }
-        .aspectRatio(contentMode: .fit)
         .padding()
         .navigationTitle("Modifiers")
     }

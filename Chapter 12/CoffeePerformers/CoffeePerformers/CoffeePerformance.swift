@@ -26,20 +26,15 @@ var dannyPerfInfo: [PerformanceInfo] = [
 
 struct CoffeePerformance: View {
     var body: some View {
-        VStack (alignment: .leading){
+        VStack (alignment: .leading) {
             Text("Danny's Coffee  ☕️")
-            Chart {
-                ForEach(dannyPerfInfo) { perfInfo in
-                    BarMark(
-                        x: .value("Cups of Coffee", perfInfo.cups),
-                        y: .value("Rating", perfInfo.rating)
-                    )
-                }
+            Chart(dannyPerfInfo) { perfInfo in
+                BarMark(
+                    x: .value("Cups of Coffee", perfInfo.cups),
+                    y: .value("Rating", perfInfo.rating)
+                )
             }
-            .chartXAxisLabel("Cups of Coffee")
-            .chartYAxisLabel("Rating")
         }
-        .aspectRatio(contentMode: .fit)
         .padding()
         .navigationTitle("Coffee Performers")
     }
