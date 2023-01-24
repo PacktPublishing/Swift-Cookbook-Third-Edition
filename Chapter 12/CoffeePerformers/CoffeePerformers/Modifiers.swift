@@ -15,14 +15,16 @@ struct Modifiers: View {
         VStack (alignment: .leading){
             Text("Danny's Coffee  ☕️")
             
-            Chart {
-                ForEach(dannyPerfInfo) { perfInfo in
+            Chart (multiplePerformers, id: \.name) { performer in
+                ForEach(performer.info) { perfInfo in
                     switch selectedChartMark {
                     case .bar:
                         BarMark(
                             x: .value("Cups of Coffee", perfInfo.cups),
                             y: .value("Rating", perfInfo.rating)
                         )
+                        .foregroundStyle(by: .value("Performer", performer.name))
+                        .position(by: .value("Performer", performer.name), axis: .horizontal, span: .inset(15))
                         .lineStyle(StrokeStyle(lineWidth: 15))
                         .cornerRadius(10)
                     case .line:
@@ -30,6 +32,7 @@ struct Modifiers: View {
                             x: .value("Cups of Coffee", perfInfo.cups),
                             y: .value("Rating", perfInfo.rating)
                         )
+                        .foregroundStyle(by: .value("Performer", performer.name))
                         .interpolationMethod(.catmullRom)
                         .lineStyle(StrokeStyle(lineWidth: 15))
                     case .area:
@@ -49,11 +52,13 @@ struct Modifiers: View {
                             y: .value("Rating", perfInfo.rating)
                         )
                         .foregroundStyle(curGradient)
+                        .position(by: .value("Performer", performer.name), axis: .horizontal, span: .inset(15))
                     case .point:
                         PointMark(
                             x: .value("Cups of Coffee", perfInfo.cups),
                             y: .value("Rating", perfInfo.rating)
                         )
+                        .foregroundStyle(by: .value("Performer", performer.name))
                         .symbol{
                             Image(systemName: "star")
                         }
@@ -62,24 +67,25 @@ struct Modifiers: View {
                             x: .value("Cups of Coffee", perfInfo.cups),
                             y: .value("Rating", perfInfo.rating)
                         )
+                        .foregroundStyle(by: .value("Performer", performer.name))
                     }
                     if(perfInfo.rating == 5) {
                         RuleMark(
                             x: .value("Max Rating", perfInfo.cups)
                         )
-                        .foregroundStyle(Color.orange)
+                        .foregroundStyle(Color.pink)
                         .annotation(position: .overlay, alignment: .leading) {
-                            Text("Peak\nPerformance")
-                                .foregroundColor(Color.orange)
+                            Text("Peak")
+                                .foregroundColor(Color.pink)
                         }
                     }
                 }
             }
             .chartXAxisLabel("Cups of Coffee")
             .chartYAxisLabel("Rating")
-            .chartPlotStyle{ area in
-                area.background(.green.opacity(0.5))
-            }
+//            .chartPlotStyle{ area in
+//                area.background(.green.opacity(0.5))
+//            }
             
             Picker("Chart Mark", selection: $selectedChartMark.animation(.easeInOut)) {
                 Text("Bar").tag(ChartMark.bar)
