@@ -7,16 +7,13 @@ struct Puppy: Codable {
     let breed: String
 }
 
-func fetchPuppies() -> AnyPublisher<[Puppy], Error> {
-    let url = URL(string: "https://raw.githubusercontent.com/PacktPublishing/Swift-Cookbook-Third-Edition/main/Chapter%209/Chapter%209%20-%203/Pups.json")!
-    return URLSession.shared
-        .dataTaskPublisher(for: url)
-        .map { $0.data }
-        .decode(type: [Puppy].self, decoder: JSONDecoder())
-        .eraseToAnyPublisher()
-}
+let url = URL(string: "https://raw.githubusercontent.com/PacktPublishing/Swift-Cookbook-Third-Edition/main/Chapter%209/Chapter%209%20-%203/Pups.json")!
 
-let publisher = fetchPuppies()
+let publisher = URLSession.shared
+    .dataTaskPublisher(for: url)
+    .map { $0.data }
+    .decode(type: [Puppy].self, decoder: JSONDecoder())
+    .eraseToAnyPublisher()
 
 let subscriber = publisher
     .sink(receiveCompletion: { completion in
@@ -28,6 +25,6 @@ let subscriber = publisher
         }
     }, receiveValue: { pups in
         for pup in pups {
-            print("Pup: \(pup)")
+            print("Feeding \(pup.name) the \(pup.breed) a treat!")
         }
     })
