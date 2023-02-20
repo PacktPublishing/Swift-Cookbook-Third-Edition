@@ -7,7 +7,7 @@ struct Puppy: Codable {
     let breed: String
 }
 
-func fetchPuppies() -> AnyPublisher<[User], Error> {
+func fetchPuppies() -> AnyPublisher<[Puppy], Error> {
     let url = URL(string: "https://raw.githubusercontent.com/PacktPublishing/Swift-Cookbook-Third-Edition/main/Chapter%209/Chapter%209%20-%203/Pups.json")!
     return URLSession.shared
         .dataTaskPublisher(for: url)
@@ -27,5 +27,7 @@ let subscriber = publisher
             print("Completed")
         }
     }, receiveValue: { pups in
-        print("Pups: \(pups)")
+        for pup in pups {
+            print("Pup: \(pup)")
+        }
     })
