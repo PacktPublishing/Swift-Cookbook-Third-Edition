@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Pongo",
+    "breed": "Dalmatian"
+    },
+  {
+    "id": 2,
+    "name": "Buddy",
+    "breed": "Lab"
+    },
+  {
+    "id": 3,
+    "name": "Bolt",
+    "breed": "German Sheperd"
+    }
+]
