@@ -55,6 +55,16 @@ game[0, 0] = .player1
 print(game.gameStateString())
 // End Move 3
 
+// Start Move 4
+game[1, 2] = .player2
+print(game.gameStateString())
+// End Move 4
+
+// Start Move 5
+game[2, 2] = .player1
+print(game.gameStateString())
+// End Move 5
+
 let topLeft = game[0, 0]
 let middle = game[1, 1]
 

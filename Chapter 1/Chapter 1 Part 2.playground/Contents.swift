@@ -26,10 +26,10 @@ phrase = "The quick brown ? jumps over the lazy ?" // Doesn't compile
 //
 
 var anotherPhrase = phrase
-anotherPhrase = "The quick brown jumps over the lazy "
+anotherPhrase = "The quick brown 🦊 jumps over the lazy 🐶"
 print(phrase)
 // "The quick brown fox jumps over the lazy dog"
-print(anotherPhrase) // "The quick brown   jumps over the lazy   "
+print(anotherPhrase) // "The quick brown 🦊 jumps over the lazy 🐶"
 
 var phraseInfo = "The phrase" + " has: "
 print(phraseInfo) // "The phrase has: "
