@@ -16,6 +16,7 @@ struct ARViewContainer: UIViewRepresentable {
         // Add configuration to detect horizontal planes
         let configuration = ARWorldTrackingConfiguration()
         configuration.planeDetection = [.horizontal]
+        configuration.frameSemantics.insert(.personSegmentationWithDepth)
         arView.session.run(configuration)
         
         // Create an anchor entity
