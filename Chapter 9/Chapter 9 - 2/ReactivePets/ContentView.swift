@@ -21,8 +21,8 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .center){
             Text("Your Pets Name is: \(pet.name)")
-            Text("Your Pets Age is: \(pet.name)")
-            Text("Your Pets Breed is: \(pet.name)")
+            Text("Your Pets Age is: \(pet.age)")
+            Text("Your Pets Breed is: \(pet.breed)")
             
             TextField("Enter name", text: $pet.name)
                 .textFieldStyle(RoundedBorderTextFieldStyle())

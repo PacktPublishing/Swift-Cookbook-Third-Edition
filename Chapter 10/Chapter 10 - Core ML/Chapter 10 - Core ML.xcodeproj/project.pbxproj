@@ -13,8 +13,8 @@
 		8337A56625AB42F800E7D5D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8337A56425AB42F800E7D5D0 /* Main.storyboard */; };
 		8337A56825AB42F900E7D5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8337A56725AB42F900E7D5D0 /* Assets.xcassets */; };
 		8337A56B25AB42F900E7D5D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8337A56925AB42F900E7D5D0 /* LaunchScreen.storyboard */; };
-		8337A57625AB42F900E7D5D0 /* Chapter_11___Core_MLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337A57525AB42F900E7D5D0 /* Chapter_11___Core_MLTests.swift */; };
-		8337A58125AB42F900E7D5D0 /* Chapter_11___Core_MLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337A58025AB42F900E7D5D0 /* Chapter_11___Core_MLUITests.swift */; };
+		8337A57625AB42F900E7D5D0 /* Chapter_10___Core_MLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337A57525AB42F900E7D5D0 /* Chapter_10___Core_MLTests.swift */; };
+		8337A58125AB42F900E7D5D0 /* Chapter_10___Core_MLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337A58025AB42F900E7D5D0 /* Chapter_10___Core_MLUITests.swift */; };
 		83A2E85025B7836D005B8ECD /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83A2E84F25B7836D005B8ECD /* ReadMe.txt */; };
 		83CAD47A25B3417500925CE7 /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAD47925B3417500925CE7 /* VisionViewController.swift */; };
 		83CAD49B25B4E64E00925CE7 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAD49A25B4E64D00925CE7 /* ImageHelper.swift */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8337A55B25AB42F800E7D5D0 /* Chapter 11 - Core ML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 11 - Core ML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8337A55B25AB42F800E7D5D0 /* Chapter 10 - Core ML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 10 - Core ML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8337A55E25AB42F800E7D5D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8337A56025AB42F800E7D5D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8337A56225AB42F800E7D5D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,11 +46,11 @@
 		8337A56725AB42F900E7D5D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8337A56A25AB42F900E7D5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8337A56C25AB42F900E7D5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8337A57125AB42F900E7D5D0 /* Chapter 11 - Core MLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chapter 11 - Core MLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8337A57525AB42F900E7D5D0 /* Chapter_11___Core_MLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter_11___Core_MLTests.swift"; sourceTree = "<group>"; };
+		8337A57125AB42F900E7D5D0 /* Chapter 10 - Core MLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chapter 10 - Core MLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8337A57525AB42F900E7D5D0 /* Chapter_10___Core_MLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter_10___Core_MLTests.swift"; sourceTree = "<group>"; };
 		8337A57725AB42F900E7D5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8337A57C25AB42F900E7D5D0 /* Chapter 11 - Core MLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chapter 11 - Core MLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8337A58025AB42F900E7D5D0 /* Chapter_11___Core_MLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter_11___Core_MLUITests.swift"; sourceTree = "<group>"; };
+		8337A57C25AB42F900E7D5D0 /* Chapter 10 - Core MLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chapter 10 - Core MLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8337A58025AB42F900E7D5D0 /* Chapter_10___Core_MLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter_10___Core_MLUITests.swift"; sourceTree = "<group>"; };
 		8337A58225AB42F900E7D5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A2E84F25B7836D005B8ECD /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		83CAD47925B3417500925CE7 /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
@@ -85,9 +85,9 @@
 		8337A55225AB42F800E7D5D0 = {
 			isa = PBXGroup;
 			children = (
-				8337A55D25AB42F800E7D5D0 /* Chapter 11 - Core ML */,
-				8337A57425AB42F900E7D5D0 /* Chapter 11 - Core MLTests */,
-				8337A57F25AB42F900E7D5D0 /* Chapter 11 - Core MLUITests */,
+				8337A55D25AB42F800E7D5D0 /* Chapter 10 - Core ML */,
+				8337A57425AB42F900E7D5D0 /* Chapter 10 - Core MLTests */,
+				8337A57F25AB42F900E7D5D0 /* Chapter 10 - Core MLUITests */,
 				8337A55C25AB42F800E7D5D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,14 +95,14 @@
 		8337A55C25AB42F800E7D5D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8337A55B25AB42F800E7D5D0 /* Chapter 11 - Core ML.app */,
-				8337A57125AB42F900E7D5D0 /* Chapter 11 - Core MLTests.xctest */,
-				8337A57C25AB42F900E7D5D0 /* Chapter 11 - Core MLUITests.xctest */,
+				8337A55B25AB42F800E7D5D0 /* Chapter 10 - Core ML.app */,
+				8337A57125AB42F900E7D5D0 /* Chapter 10 - Core MLTests.xctest */,
+				8337A57C25AB42F900E7D5D0 /* Chapter 10 - Core MLUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8337A55D25AB42F800E7D5D0 /* Chapter 11 - Core ML */ = {
+		8337A55D25AB42F800E7D5D0 /* Chapter 10 - Core ML */ = {
 			isa = PBXGroup;
 			children = (
 				83CAD4A025B4E68D00925CE7 /* ViewControllers */,
@@ -115,25 +115,25 @@
 				8337A56925AB42F900E7D5D0 /* LaunchScreen.storyboard */,
 				8337A56C25AB42F900E7D5D0 /* Info.plist */,
 			);
-			path = "Chapter 11 - Core ML";
+			path = "Chapter 10 - Core ML";
 			sourceTree = "<group>";
 		};
-		8337A57425AB42F900E7D5D0 /* Chapter 11 - Core MLTests */ = {
+		8337A57425AB42F900E7D5D0 /* Chapter 10 - Core MLTests */ = {
 			isa = PBXGroup;
 			children = (
-				8337A57525AB42F900E7D5D0 /* Chapter_11___Core_MLTests.swift */,
+				8337A57525AB42F900E7D5D0 /* Chapter_10___Core_MLTests.swift */,
 				8337A57725AB42F900E7D5D0 /* Info.plist */,
 			);
-			path = "Chapter 11 - Core MLTests";
+			path = "Chapter 10 - Core MLTests";
 			sourceTree = "<group>";
 		};
-		8337A57F25AB42F900E7D5D0 /* Chapter 11 - Core MLUITests */ = {
+		8337A57F25AB42F900E7D5D0 /* Chapter 10 - Core MLUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8337A58025AB42F900E7D5D0 /* Chapter_11___Core_MLUITests.swift */,
+				8337A58025AB42F900E7D5D0 /* Chapter_10___Core_MLUITests.swift */,
 				8337A58225AB42F900E7D5D0 /* Info.plist */,
 			);
-			path = "Chapter 11 - Core MLUITests";
+			path = "Chapter 10 - Core MLUITests";
 			sourceTree = "<group>";
 		};
 		83CAD49325B4BE7100925CE7 /* Models */ = {
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8337A55A25AB42F800E7D5D0 /* Chapter 11 - Core ML */ = {
+		8337A55A25AB42F800E7D5D0 /* Chapter 10 - Core ML */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8337A58525AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 11 - Core ML" */;
+			buildConfigurationList = 8337A58525AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 10 - Core ML" */;
 			buildPhases = (
 				8337A55725AB42F800E7D5D0 /* Sources */,
 				8337A55825AB42F800E7D5D0 /* Frameworks */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = "Chapter 11 - Core ML";
+			name = "Chapter 10 - Core ML";
 			productName = "Chapter 11 - Core ML";
-			productReference = 8337A55B25AB42F800E7D5D0 /* Chapter 11 - Core ML.app */;
+			productReference = 8337A55B25AB42F800E7D5D0 /* Chapter 10 - Core ML.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8337A57025AB42F900E7D5D0 /* Chapter 11 - Core MLTests */ = {
+		8337A57025AB42F900E7D5D0 /* Chapter 10 - Core MLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8337A58825AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 11 - Core MLTests" */;
+			buildConfigurationList = 8337A58825AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 10 - Core MLTests" */;
 			buildPhases = (
 				8337A56D25AB42F900E7D5D0 /* Sources */,
 				8337A56E25AB42F900E7D5D0 /* Frameworks */,
@@ -194,14 +194,14 @@
 			dependencies = (
 				8337A57325AB42F900E7D5D0 /* PBXTargetDependency */,
 			);
-			name = "Chapter 11 - Core MLTests";
+			name = "Chapter 10 - Core MLTests";
 			productName = "Chapter 11 - Core MLTests";
-			productReference = 8337A57125AB42F900E7D5D0 /* Chapter 11 - Core MLTests.xctest */;
+			productReference = 8337A57125AB42F900E7D5D0 /* Chapter 10 - Core MLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8337A57B25AB42F900E7D5D0 /* Chapter 11 - Core MLUITests */ = {
+		8337A57B25AB42F900E7D5D0 /* Chapter 10 - Core MLUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8337A58B25AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 11 - Core MLUITests" */;
+			buildConfigurationList = 8337A58B25AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 10 - Core MLUITests" */;
 			buildPhases = (
 				8337A57825AB42F900E7D5D0 /* Sources */,
 				8337A57925AB42F900E7D5D0 /* Frameworks */,
@@ -212,9 +212,9 @@
 			dependencies = (
 				8337A57E25AB42F900E7D5D0 /* PBXTargetDependency */,
 			);
-			name = "Chapter 11 - Core MLUITests";
+			name = "Chapter 10 - Core MLUITests";
 			productName = "Chapter 11 - Core MLUITests";
-			productReference = 8337A57C25AB42F900E7D5D0 /* Chapter 11 - Core MLUITests.xctest */;
+			productReference = 8337A57C25AB42F900E7D5D0 /* Chapter 10 - Core MLUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8337A55625AB42F800E7D5D0 /* Build configuration list for PBXProject "Chapter 11 - Core ML" */;
+			buildConfigurationList = 8337A55625AB42F800E7D5D0 /* Build configuration list for PBXProject "Chapter 10 - Core ML" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -252,9 +252,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8337A55A25AB42F800E7D5D0 /* Chapter 11 - Core ML */,
-				8337A57025AB42F900E7D5D0 /* Chapter 11 - Core MLTests */,
-				8337A57B25AB42F900E7D5D0 /* Chapter 11 - Core MLUITests */,
+				8337A55A25AB42F800E7D5D0 /* Chapter 10 - Core ML */,
+				8337A57025AB42F900E7D5D0 /* Chapter 10 - Core MLTests */,
+				8337A57B25AB42F900E7D5D0 /* Chapter 10 - Core MLUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8337A57625AB42F900E7D5D0 /* Chapter_11___Core_MLTests.swift in Sources */,
+				8337A57625AB42F900E7D5D0 /* Chapter_10___Core_MLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8337A58125AB42F900E7D5D0 /* Chapter_11___Core_MLUITests.swift in Sources */,
+				8337A58125AB42F900E7D5D0 /* Chapter_10___Core_MLUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		8337A57325AB42F900E7D5D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8337A55A25AB42F800E7D5D0 /* Chapter 11 - Core ML */;
+			target = 8337A55A25AB42F800E7D5D0 /* Chapter 10 - Core ML */;
 			targetProxy = 8337A57225AB42F900E7D5D0 /* PBXContainerItemProxy */;
 		};
 		8337A57E25AB42F900E7D5D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8337A55A25AB42F800E7D5D0 /* Chapter 11 - Core ML */;
+			target = 8337A55A25AB42F800E7D5D0 /* Chapter 10 - Core ML */;
 			targetProxy = 8337A57D25AB42F900E7D5D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,12 +474,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C233LQUF2Z;
-				INFOPLIST_FILE = "Chapter 11 - Core ML/Info.plist";
+				INFOPLIST_FILE = "Chapter 10 - Core ML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swift-cookbook.Chapter-11---Core-ML";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift-cookbook.Chapter-10---Core-ML";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,12 +493,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C233LQUF2Z;
-				INFOPLIST_FILE = "Chapter 11 - Core ML/Info.plist";
+				INFOPLIST_FILE = "Chapter 10 - Core ML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swift-cookbook.Chapter-11---Core-ML";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift-cookbook.Chapter-10---Core-ML";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -592,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8337A55625AB42F800E7D5D0 /* Build configuration list for PBXProject "Chapter 11 - Core ML" */ = {
+		8337A55625AB42F800E7D5D0 /* Build configuration list for PBXProject "Chapter 10 - Core ML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8337A58325AB42F900E7D5D0 /* Debug */,
@@ -601,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8337A58525AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 11 - Core ML" */ = {
+		8337A58525AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 10 - Core ML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8337A58625AB42F900E7D5D0 /* Debug */,
@@ -610,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8337A58825AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 11 - Core MLTests" */ = {
+		8337A58825AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 10 - Core MLTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8337A58925AB42F900E7D5D0 /* Debug */,
@@ -619,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8337A58B25AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 11 - Core MLUITests" */ = {
+		8337A58B25AB42F900E7D5D0 /* Build configuration list for PBXNativeTarget "Chapter 10 - Core MLUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8337A58C25AB42F900E7D5D0 /* Debug */,
