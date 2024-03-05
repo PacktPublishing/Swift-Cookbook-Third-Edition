@@ -29,7 +29,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        model = Resnet50()
+        model = try? Resnet50(configuration: .init())
         setupCaptureSession()
     }
 

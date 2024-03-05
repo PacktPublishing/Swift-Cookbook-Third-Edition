@@ -21,7 +21,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Chapter 11 would like to use your camera because...</string>
+	<string>Chapter 10 wants to detect cool Stuff</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Chapter 10 wants to detect cool Stuff</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
