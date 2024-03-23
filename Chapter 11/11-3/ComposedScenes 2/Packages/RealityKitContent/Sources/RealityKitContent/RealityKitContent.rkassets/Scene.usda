@@ -5,6 +5,8 @@
     upAxis = "Y"
 )
 
+reorder rootPrims = ["Root", "GridMaterial"]
+
 def Xform "Root"
 {
     reorder nameChildren = ["GridMaterial", "Sphere"]
@@ -14,7 +16,7 @@ def Xform "Root"
 
     def "GridMaterial" (
         active = true
-        prepend references = @Materials/GridMaterial.usda@
+        references = @Materials/GridMaterial.usda@
     )
     {
         float3 xformOp:scale = (1, 1, 1)

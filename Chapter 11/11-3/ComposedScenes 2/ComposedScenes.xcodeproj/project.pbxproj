@@ -7,76 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD4C65BD2BADE34C00244843 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DD4C65BC2BADE34C00244843 /* RealityKitContent */; };
-		DD4C65BF2BADE34C00244843 /* ComposedScenesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4C65BE2BADE34C00244843 /* ComposedScenesApp.swift */; };
-		DD4C65C12BADE34C00244843 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4C65C02BADE34C00244843 /* ContentView.swift */; };
-		DD4C65C72BADE34F00244843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4C65C62BADE34F00244843 /* Assets.xcassets */; };
-		DD4C65CA2BADE34F00244843 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4C65C92BADE34F00244843 /* Preview Assets.xcassets */; };
+		DDAB9CC32BAEE17100C6614E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DDAB9CC22BAEE17100C6614E /* RealityKitContent */; };
+		DDAB9CC52BAEE17100C6614E /* ComposedScenesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB9CC42BAEE17100C6614E /* ComposedScenesApp.swift */; };
+		DDAB9CC72BAEE17100C6614E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB9CC62BAEE17100C6614E /* ContentView.swift */; };
+		DDAB9CC92BAEE17100C6614E /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB9CC82BAEE17100C6614E /* ImmersiveView.swift */; };
+		DDAB9CCB2BAEE17100C6614E /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = DDAB9CCA2BAEE17100C6614E /* ImageBasedLighting.skybox */; };
+		DDAB9CCD2BAEE17400C6614E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAB9CCC2BAEE17400C6614E /* Assets.xcassets */; };
+		DDAB9CD02BAEE17400C6614E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAB9CCF2BAEE17400C6614E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD4C65B72BADE34C00244843 /* ComposedScenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComposedScenes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD4C65BB2BADE34C00244843 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		DD4C65BE2BADE34C00244843 /* ComposedScenesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedScenesApp.swift; sourceTree = "<group>"; };
-		DD4C65C02BADE34C00244843 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DD4C65C62BADE34F00244843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD4C65C92BADE34F00244843 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DD4C65CB2BADE34F00244843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAB9CBD2BAEE17100C6614E /* ComposedScenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComposedScenes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAB9CC12BAEE17100C6614E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		DDAB9CC42BAEE17100C6614E /* ComposedScenesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedScenesApp.swift; sourceTree = "<group>"; };
+		DDAB9CC62BAEE17100C6614E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDAB9CC82BAEE17100C6614E /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		DDAB9CCA2BAEE17100C6614E /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		DDAB9CCC2BAEE17400C6614E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDAB9CCF2BAEE17400C6614E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDAB9CD12BAEE17400C6614E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DD4C65B42BADE34C00244843 /* Frameworks */ = {
+		DDAB9CBA2BAEE17100C6614E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4C65BD2BADE34C00244843 /* RealityKitContent in Frameworks */,
+				DDAB9CC32BAEE17100C6614E /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD4C65AE2BADE34C00244843 = {
+		DDAB9CB42BAEE17100C6614E = {
 			isa = PBXGroup;
 			children = (
-				DD4C65B92BADE34C00244843 /* ComposedScenes */,
-				DD4C65BA2BADE34C00244843 /* Packages */,
-				DD4C65B82BADE34C00244843 /* Products */,
+				DDAB9CBF2BAEE17100C6614E /* ComposedScenes */,
+				DDAB9CC02BAEE17100C6614E /* Packages */,
+				DDAB9CBE2BAEE17100C6614E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DD4C65B82BADE34C00244843 /* Products */ = {
+		DDAB9CBE2BAEE17100C6614E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD4C65B72BADE34C00244843 /* ComposedScenes.app */,
+				DDAB9CBD2BAEE17100C6614E /* ComposedScenes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD4C65B92BADE34C00244843 /* ComposedScenes */ = {
+		DDAB9CBF2BAEE17100C6614E /* ComposedScenes */ = {
 			isa = PBXGroup;
 			children = (
-				DD4C65BE2BADE34C00244843 /* ComposedScenesApp.swift */,
-				DD4C65C02BADE34C00244843 /* ContentView.swift */,
-				DD4C65C62BADE34F00244843 /* Assets.xcassets */,
-				DD4C65CB2BADE34F00244843 /* Info.plist */,
-				DD4C65C82BADE34F00244843 /* Preview Content */,
+				DDAB9CC42BAEE17100C6614E /* ComposedScenesApp.swift */,
+				DDAB9CC62BAEE17100C6614E /* ContentView.swift */,
+				DDAB9CC82BAEE17100C6614E /* ImmersiveView.swift */,
+				DDAB9CCA2BAEE17100C6614E /* ImageBasedLighting.skybox */,
+				DDAB9CCC2BAEE17400C6614E /* Assets.xcassets */,
+				DDAB9CD12BAEE17400C6614E /* Info.plist */,
+				DDAB9CCE2BAEE17400C6614E /* Preview Content */,
 			);
 			path = ComposedScenes;
 			sourceTree = "<group>";
 		};
-		DD4C65BA2BADE34C00244843 /* Packages */ = {
+		DDAB9CC02BAEE17100C6614E /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				DD4C65BB2BADE34C00244843 /* RealityKitContent */,
+				DDAB9CC12BAEE17100C6614E /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
 		};
-		DD4C65C82BADE34F00244843 /* Preview Content */ = {
+		DDAB9CCE2BAEE17400C6614E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DD4C65C92BADE34F00244843 /* Preview Assets.xcassets */,
+				DDAB9CCF2BAEE17400C6614E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -84,13 +90,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD4C65B62BADE34C00244843 /* ComposedScenes */ = {
+		DDAB9CBC2BAEE17100C6614E /* ComposedScenes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD4C65CE2BADE34F00244843 /* Build configuration list for PBXNativeTarget "ComposedScenes" */;
+			buildConfigurationList = DDAB9CD42BAEE17400C6614E /* Build configuration list for PBXNativeTarget "ComposedScenes" */;
 			buildPhases = (
-				DD4C65B32BADE34C00244843 /* Sources */,
-				DD4C65B42BADE34C00244843 /* Frameworks */,
-				DD4C65B52BADE34C00244843 /* Resources */,
+				DDAB9CB92BAEE17100C6614E /* Sources */,
+				DDAB9CBA2BAEE17100C6614E /* Frameworks */,
+				DDAB9CBB2BAEE17100C6614E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -98,28 +104,28 @@
 			);
 			name = ComposedScenes;
 			packageProductDependencies = (
-				DD4C65BC2BADE34C00244843 /* RealityKitContent */,
+				DDAB9CC22BAEE17100C6614E /* RealityKitContent */,
 			);
 			productName = ComposedScenes;
-			productReference = DD4C65B72BADE34C00244843 /* ComposedScenes.app */;
+			productReference = DDAB9CBD2BAEE17100C6614E /* ComposedScenes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DD4C65AF2BADE34C00244843 /* Project object */ = {
+		DDAB9CB52BAEE17100C6614E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					DD4C65B62BADE34C00244843 = {
+					DDAB9CBC2BAEE17100C6614E = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = DD4C65B22BADE34C00244843 /* Build configuration list for PBXProject "ComposedScenes" */;
+			buildConfigurationList = DDAB9CB82BAEE17100C6614E /* Build configuration list for PBXProject "ComposedScenes" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,42 +133,44 @@
 				en,
 				Base,
 			);
-			mainGroup = DD4C65AE2BADE34C00244843;
-			productRefGroup = DD4C65B82BADE34C00244843 /* Products */;
+			mainGroup = DDAB9CB42BAEE17100C6614E;
+			productRefGroup = DDAB9CBE2BAEE17100C6614E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD4C65B62BADE34C00244843 /* ComposedScenes */,
+				DDAB9CBC2BAEE17100C6614E /* ComposedScenes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DD4C65B52BADE34C00244843 /* Resources */ = {
+		DDAB9CBB2BAEE17100C6614E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4C65C72BADE34F00244843 /* Assets.xcassets in Resources */,
-				DD4C65CA2BADE34F00244843 /* Preview Assets.xcassets in Resources */,
+				DDAB9CCD2BAEE17400C6614E /* Assets.xcassets in Resources */,
+				DDAB9CD02BAEE17400C6614E /* Preview Assets.xcassets in Resources */,
+				DDAB9CCB2BAEE17100C6614E /* ImageBasedLighting.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD4C65B32BADE34C00244843 /* Sources */ = {
+		DDAB9CB92BAEE17100C6614E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4C65C12BADE34C00244843 /* ContentView.swift in Sources */,
-				DD4C65BF2BADE34C00244843 /* ComposedScenesApp.swift in Sources */,
+				DDAB9CC72BAEE17100C6614E /* ContentView.swift in Sources */,
+				DDAB9CC52BAEE17100C6614E /* ComposedScenesApp.swift in Sources */,
+				DDAB9CC92BAEE17100C6614E /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DD4C65CC2BADE34F00244843 /* Debug */ = {
+		DDAB9CD22BAEE17400C6614E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		DD4C65CD2BADE34F00244843 /* Release */ = {
+		DDAB9CD32BAEE17400C6614E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +289,7 @@
 			};
 			name = Release;
 		};
-		DD4C65CF2BADE34F00244843 /* Debug */ = {
+		DDAB9CD52BAEE17400C6614E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,7 +315,7 @@
 			};
 			name = Debug;
 		};
-		DD4C65D02BADE34F00244843 /* Release */ = {
+		DDAB9CD62BAEE17400C6614E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -336,20 +344,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD4C65B22BADE34C00244843 /* Build configuration list for PBXProject "ComposedScenes" */ = {
+		DDAB9CB82BAEE17100C6614E /* Build configuration list for PBXProject "ComposedScenes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD4C65CC2BADE34F00244843 /* Debug */,
-				DD4C65CD2BADE34F00244843 /* Release */,
+				DDAB9CD22BAEE17400C6614E /* Debug */,
+				DDAB9CD32BAEE17400C6614E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD4C65CE2BADE34F00244843 /* Build configuration list for PBXNativeTarget "ComposedScenes" */ = {
+		DDAB9CD42BAEE17400C6614E /* Build configuration list for PBXNativeTarget "ComposedScenes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD4C65CF2BADE34F00244843 /* Debug */,
-				DD4C65D02BADE34F00244843 /* Release */,
+				DDAB9CD52BAEE17400C6614E /* Debug */,
+				DDAB9CD62BAEE17400C6614E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -357,11 +365,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DD4C65BC2BADE34C00244843 /* RealityKitContent */ = {
+		DDAB9CC22BAEE17100C6614E /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = DD4C65AF2BADE34C00244843 /* Project object */;
+	rootObject = DDAB9CB52BAEE17100C6614E /* Project object */;
 }
