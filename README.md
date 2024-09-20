@@ -36,6 +36,9 @@ phrase = "The quick brown ? jumps over the lazy ?"
 
 * Test-Driven iOS Development with Swift [[Packt]](https://www.packtpub.com/product/test-driven-ios-development-with-swift/9781785880735) [[Amazon]](https://www.amazon.com/dp/180323248X)
 
+## Errata
+* Page 111, the instances where `Result.win` appears _should be_ `FrameResult.win`
+
 ## About the Author
 **Keith Moon** is an award-winning iOS developer, author, and speaker based in London. He has worked with some of the biggest companies in the world to create engaging and personal mobile experiences. Keith has been developing in Swift since its release, working on projects that are both fully Swift and mixed Swift and Objective-C. Keith has been invited to speak about Swift development at conferences from Moscow to Minsk and London.
 
