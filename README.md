@@ -1,4 +1,4 @@
-# Swift Cookbook Third Edition
+# Swift Cookbook, Third Edition
 Swift Cookbook, Third Edition, Published by Packt
 This repository contains the code, examples, and resources for the book [Swift Cookbook](https://www.packtpub.com/product/Swift-Cookbook-Third-Edition/9781803239583) by Keith Moon,Chris Barker, Daniel Bolella and Nathan Lawlor published by Packt.
 <a href="https://www.packtpub.com/product/Swift-Cookbook-Third-Edition/9781803239583"><img src="https://static.packt-cdn.com/products/9781803239583/cover/smaller"  height="256px" align="right"></a>
@@ -37,6 +37,7 @@ phrase = "The quick brown ? jumps over the lazy ?"
 * Test-Driven iOS Development with Swift [[Packt]](https://www.packtpub.com/product/test-driven-ios-development-with-swift/9781785880735) [[Amazon]](https://www.amazon.com/dp/180323248X)
 
 ## Errata
+* Page 56: For the example commencing under _How to do it..._, the lead-in sentence is "Let’s use an array to organize a list of movies to watch:". Here, "movies to watch" should be "games to play". Similarly, for the all following steps, "movies" should be "games". The code and passages can still be understood despite this mismatch.
 * Page 111, the instances where `Result.win` appears _should be_ `FrameResult.win`
 
 ## About the Author
